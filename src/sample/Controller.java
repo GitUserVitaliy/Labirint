@@ -8,13 +8,14 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.*;
+import sample.bots.ErrorLabirintBot;
 import sample.bots.PassiveLabirintBot;
 import sample.bots.VolkLabirintBot;
 import sample.logic.Game;
 
 public class Controller {
 
-    LabirintPlayer yourBot = new PassiveLabirintBot();
+    LabirintPlayer yourBot = new ErrorLabirintBot();
     LabirintPlayer testBot = new VolkLabirintBot();
 
     @FXML

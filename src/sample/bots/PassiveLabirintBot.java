@@ -8,6 +8,7 @@ public class PassiveLabirintBot implements LabirintPlayer {
 
     private int mynumber;
     private int count = 0;
+
     @Override
     public void takeYourNumber(int number) {
         mynumber = number;
@@ -17,7 +18,6 @@ public class PassiveLabirintBot implements LabirintPlayer {
     public Direction step(GameState gameState) {
         return Direction.NONE;
     }
-
 
 
     @Override
